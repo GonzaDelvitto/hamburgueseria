@@ -1,0 +1,7 @@
+//⚠️Detalle: rutas ABSOLUTAS ya que ahora se usaran desde 2 html en distintas ubicaciones
+export const productos = [
+  { id: "1", nombre: "HBQ SIMPLE", img: "/img/HBQ SIMPLE.jpg", precio: 10350 },
+  { id: "2", nombre: "CHEESE BACON SIMPLE", img: "/img/chesee bacon simple.jpg", precio: 10350 },
+  { id: "3", nombre: "AMERICAN BURGER DOBLE", img: "/img/AMERICAN BURGER DOBLE.jpg", precio: 10500 },
+  { id: "4", nombre: "CUARTITO ALE SIMPLE", img: "/img/CUARTITO ALE SIMPLE.jpg", precio: 10350 },
+];
