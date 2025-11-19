@@ -5,3 +5,6 @@
 //   { id: "3", nombre: "AMERICAN BURGER DOBLE", img: "/img/AMERICAN BURGER DOBLE.jpg", precio: 10500 },
 //   { id: "4", nombre: "CUARTITO ALE SIMPLE", img: "/img/CUARTITO ALE SIMPLE.jpg", precio: 10350 },
 // ];
+//⚠️Detalle: ahora los productos se obtienen desde un archivo JSON usando fetch,
+// por lo que este archivo queda obsoleto y puede ser eliminado.
+
