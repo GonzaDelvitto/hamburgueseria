@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Saira Condensed", sans-serif;
     line-height: 1,5;
     font-size: 1.6;
 
@@ -61,7 +61,7 @@ line-height: 1.2;
     border-radius: 1rem;
     }
 
-    header,footer {
+    header {
         background: #0c0c0c;
         color: #FFF8F0;
         width: 100%;
@@ -70,6 +70,44 @@ line-height: 1.2;
         justify-content: space-between;
         align-items: center;
     }
+footer {
+    background-color: #0c0c0c; /* mismo que header y footer general */
+    color: #FFF8F0; /* tu color claro */
+    width: 100%;
+    padding: 2rem 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem; /* 14px */
+}
+
+footer p {
+    margin: 0;
+}
+
+.nav-redes ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-redes ul li a {
+    color: #ff6b00; /* naranja que usás en botones */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.6rem;
+    transition: color 0.3s ease;
+}
+
+.nav-redes ul li a:hover {
+    color: #FF3ea5; /* rosa vibrante que usás en hover btn */
+}
 
     .btn:hover {
         background: #FF3ea5;
@@ -105,6 +143,7 @@ line-height: 1.2;
 
     .header-nav {
         margin-right: 2rem;
+        color: #FFF8F0;
     }
 
     .header-nav ul{
@@ -113,8 +152,12 @@ line-height: 1.2;
         justify-content: center;
         gap: 1rem;
         margin: 2rem;
+        color: #ff6b00;
+        font-family: "Oswald", sans-serif;
+        font-weight: 600;
+  }
 
-    }
+
 
     /*                           HOME                               */
 
